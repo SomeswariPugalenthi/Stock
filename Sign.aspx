@@ -213,6 +213,12 @@ CodeFile="BusinessLogic/Sign.aspx.cs" %>
             </div>
              
         </form>
+        <p>Test by Narendiran</p>
+        <img src="Photo.png">
+        <div class="photo">
+            <h1>Hi Someshwari</h1>
+            <p>Fetch git</p>
+        </div>
     </body>
     
 </html>

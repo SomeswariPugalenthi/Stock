@@ -18,9 +18,9 @@ CodeFile="BusinessLogic/Sign.aspx.cs" %>
             <div class="box" id="form1" style="display:none">
                 <h1><u>Broker SignUp</u></h1>
                 <div class="div2">
-                    <label>Broker Id</label>
+                    <!-- <label>Broker Id</label>
                     <input class="input" type="text" id="brokerid" placeholder="Enter Your BrokerId" runat="server">
-                    <div class="error"></div>
+                    <div class="error"></div> -->
                 </div>
                 <div class="div2">
                     <label>Broker Name</label>

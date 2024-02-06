@@ -1,0 +1,309 @@
+.dropdown {
+    
+    position: absolute;
+   right: 20px;
+   top: 20px; 
+ 
+}
+
+/* #a1,#a2,#a3
+{
+   
+}
+form
+{
+   
+} */
+/* .box {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    } */
+
+h1 {
+    text-align: center;
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Style the form labels */
+/* label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        }
+         */
+/* Style the form input fields */
+/* input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        font-size: 16px;
+        } */
+
+/* Change the border color on focus */
+/* input:focus, select:focus, textarea:focus {
+        border-color: #04AA6D;
+        }
+         */
+/* Style the form submit button */
+/* .submit {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #04AA6D;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        } */
+
+/* Change the background color on hover */
+/* .submit:hover {
+        background-color: #039a5a;
+        } */
+
+/* Style the form error messages */
+/* .error {
+        color: red;
+        font-style: italic;
+        }
+         */
+/* Use media queries to adjust the layout for smaller screens */
+/* @media screen and (max-width: 480px) {
+        label {
+        font-size: 14px;
+        }
+        
+        input, select, textarea {
+        font-size: 14px;
+        }
+        
+        .submit {
+        font-size: 16px;
+        }
+        } */
+body {
+
+    background: rgb(12, 108, 127);
+    margin: auto;
+    /* background-attachment: fixed; */
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.box {
+    width: 650px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.box1 {
+    width: 650px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+#h2 {
+    text-align: center;
+}
+
+#Submitbtn {
+    background-color: rgb(169, 14, 241);
+    color: white;
+    padding: 25px;
+    margin: 20px 0px;
+    width: 50%;
+
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#EntityType
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 620px;
+    height: 50px;
+}
+#BrokerType
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 620px;
+    height: 50px;
+}
+#UserType
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 620px;
+    height: 50px;
+}
+#UserType1
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 620px;
+    height: 50px;
+}
+#UserType2
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 620px;
+    height: 50px;
+}
+#UserType3
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 620px;
+    height: 50px;
+}
+#TypeOfInvestor
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 620px;
+    height: 50px;
+}
+#EntityType5
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 620px;
+    height: 50px;
+}
+#Sector6
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 620px;
+    height: 50px;
+}
+#TypeOfInvestor7
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 620px;
+    height: 50px;
+}
+#ChooseBroker
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 620px;
+    height: 50px;
+}
+.div2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.div2 input {
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 600px;
+    height: 30px;
+}
+
+.div2 input:focus {
+    outline: 0;
+}
+
+.div2 .error {
+    color: red;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.div2.success input {
+    border-color: #0cc477;
+}
+
+.div2.error input {
+    border-color: red;
+}
+.dropdown-content
+{
+    background-color: white;
+
+    
+}
+
+#a1:hover{
+    background-color: rgb(38, 211, 211);
+    cursor: pointer;
+    box-shadow: rgb(56, 56, 56) 9px 9px 9px;
+}
+#a2:hover{
+    background-color: rgb(38, 211, 211);
+    cursor: pointer;
+}
+#a3:hover{
+    background-color: rgb(38, 211, 211);
+    cursor: pointer;
+}
+
+#a4:hover{
+    background-color: rgb(38, 211, 211);
+    cursor: pointer;
+    box-shadow: rgb(56, 56, 56) 9px 9px 9px;
+}
+#a5:hover{
+    background-color: rgb(38, 211, 211);
+    cursor: pointer;
+}
+#a6:hover{
+    background-color: rgb(38, 211, 211);
+    cursor: pointer;
+}
+#a7:hover{
+    background-color: rgb(38, 211, 211);
+    cursor: pointer;
+}

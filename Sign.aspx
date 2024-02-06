@@ -13,6 +13,7 @@ CodeFile="BusinessLogic/Sign.aspx.cs" %>
     <body>
         <div class="div1">
         <form runat="server" id="form">
+            <h1>Hello</h1>
            
            <p>TEsting</p> 
             <div class="box" id="form1" style="display:none">
